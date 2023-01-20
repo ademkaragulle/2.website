@@ -1,0 +1,518 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+a {
+    text-decoration: none !important;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.645);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+nav li {
+    height: 80px !important;
+}
+
+nav .nav-link {
+    padding-top: 16px;
+    margin: 0;
+}
+
+
+nav li:hover {
+    border: 4px !important;
+    border-color: #1a232d !important;
+    background-color: rgba(0, 0, 0, 0.636);
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+
+footer {
+    background-color: rgb(71, 71, 71);
+}
+
+footer ol {
+    padding-left: 15px;
+    list-style: disc;
+}
+
+footer a {
+    cursor: pointer !important;
+}
+
+footer img {
+    width: 250px;
+}
+
+footer .icon i:hover {
+    color: #000000c8;
+}
+
+footer ol li:hover,
+footer ol li a:hover {
+    color: #000000c8 !important;
+}
+
+#indexSlider {
+    position: relative;
+}
+
+
+#indexSlider .container-fluid,
+#ticaret .container-fluid .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 798px) {
+    .carousel-inner {
+        height: unset !important;
+    }
+
+    #header {
+        background-color: rgba(0, 0, 0, 0.80) !important;
+        /*background renk değşicek*/
+        z-index: 16;
+    }
+
+    .modal-dialog {
+        top: 25%;
+    }
+
+    .rakamlarla {
+        margin-top: 20px;
+    }
+
+    .YouTube {
+        width: 100%;
+        height: 414px;
+        padding-left: 15px;
+        margin-right: 15px;
+    }
+
+    .haber3 {
+        margin-left: 0px !important;
+        padding-left: 0px;
+    }
+
+    #surdurulebilirlik h2 {
+        font-size: 40px;
+    }
+
+    #pazarlama,
+    #nakliyat,
+    #havacılık {
+        height: 100% !important;
+    }
+
+    #ticaretBanner .card {
+        margin-bottom: 50px;
+    }
+
+    #kariyer .container,
+    #iletisim .container-fluid,
+    #surdurulebilirlik .container-fluid,
+    #hakkimizda .container-fluid {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #surdurulebilirlikBanner .col-md-4 {
+        margin-bottom: 30PX;
+    }
+
+    .up {
+        visibility: hidden;
+    }
+}
+
+
+#header ul li {
+    padding: 10px !important;
+}
+
+
+
+.navbar li a,
+#hakkimizda a,
+#kariyer a,
+#iletisim a {
+    color: white !important;
+}
+
+#surdurulebilirlik a,
+#iletisim .card a {
+    color: #393939 !important;
+}
+
+
+.dropdown-menu {
+    color: rgb(13, 17, 20);
+    background-color: rgba(0, 0, 0, 0.645);
+    margin: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #1a232d !important;
+}
+
+footer .col-md-3 a,
+footer .col-md-2 a {
+    color: white;
+}
+
+/* .footer-design {
+    height: 75px;
+} */
+
+footer .col-md-3 h5,
+footer .col-md-2 h5,
+footer .col-md-4 h5 {
+    padding-top: 20px;
+}
+
+.icon a {
+    font-size: 24px;
+    padding: 3px;
+}
+
+
+#indexSlider video {
+    -webkit-box-shadow: inset 0px 0px 119px 77px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: inset 0px 0px 119px 77px rgba(0, 0, 0, 0.77);
+    box-shadow: inset 0px 0px 119px 77px rgba(0, 0, 0, 0.77);
+}
+
+
+.carousel-inner {
+    height: 600px;
+    filter: drop-shadow(0%);
+}
+
+
+.rakamlarla {
+    background-image: url(..//img/webp/bina-481x1000.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+.rakamlarla .col-12 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+.rakamlarla img {
+    filter: brightness(1000%);
+    margin-top: 10px;
+    text-align: center;
+    height: 75px;
+}
+
+
+.carousel-inner video {
+    filter: brightness(50%);
+}
+
+
+.haber {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(29, 24, 102);
+    padding: 5px;
+    top: 15px;
+    left: 30px;
+    color: white;
+}
+
+.haber1 {
+    position: relative;
+}
+
+.banner .opacity :hover {
+    opacity: 90%;
+}
+
+.faaliyet {
+    background-color: #efefef;
+}
+
+.faaliyet h3 {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.faaliyet .col-md-4 div {
+    height: 210px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.faaliyet .col-md-4 {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.shadow {
+    -webkit-box-shadow: inset 0px -73px 0px -62px rgba(0, 0, 0, 0.55) !important;
+    -moz-box-shadow: inset 0px -73px 0px -62px rgba(0, 0, 0, 0.55);
+    box-shadow: inset 0px -73px 0px -62px rgba(0, 0, 0, 0.55) !important;
+
+}
+
+
+.shadow:hover {
+    -webkit-box-shadow: inset 0px -83px 0px -39px rgba(0, 0, 0, 0.6) !important;
+    -moz-box-shadow: inset 0px -83px 0px -39px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px -83px 0px -39px rgba(0, 0, 0, 0.6);
+    transition: .3s;
+}
+
+
+.bg-1 {
+    background-image: url(..//img/webp/mühendislik-ve-inşaat-400-262.webp);
+    position: relative;
+}
+
+
+.bg-2 {
+    background-image: url(..//img/webp/enerji-400x262.webp);
+}
+
+
+.bg-3 {
+    background-image: url(..//img/webp/konut-400x262.webp);
+}
+
+
+.bg-4 {
+    background-image: url(..//img/webp/ticaret-400x262.webp);
+}
+
+.hg-3 {
+    position: absolute;
+    bottom: 0;
+    height: 20% !important;
+    width: 100%;
+    opacity: 70%;
+
+}
+
+.hg-7 {
+    height: 80% !important;
+    width: 100%;
+}
+
+
+.py-24 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+#hakkimizda .py-24 {
+    background-image: url(..//img/webp/about-us-1920x500.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#iletisim .py-24 {
+    background-image: url(..//img/webp/contact-1400x623.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#project .card-body,
+#project .card-body img,
+#project .card {
+    padding: 0px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+#project .card:hover {
+    opacity: 90%;
+}
+
+
+#project h3 {
+    padding-top: 16px;
+    text-align: center;
+}
+
+#muhendislik .carousel-inner {
+    height: 540px;
+}
+
+#ticaretBanner h2 {
+    color: #1a232d;
+    text-align: center;
+    font-size: 32px !important;
+}
+
+
+
+
+#ticaretBanner .col-md-4 .card {
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 42px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px -15px rgba(0, 0, 0, 0.75);
+}
+
+#pazarlama {
+    background-image: url(../img/webp/pazarlama-2000x1050.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    height: 600px;
+}
+
+#nakliyat {
+    background-image: url(../img/webp/nakliyat-1600x767.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    height: 600px;
+}
+
+#havacılık {
+    background-image: url(../img/webp/hava-taşımacılığı-1600x795.webp);
+    background-attachment: fixed;
+    background-position: center center;
+    height: 600px;
+}
+
+#pazarlama h2,
+#nakliyat h2,
+#havacılık h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#pazarlama ol {
+    list-style: square;
+    padding: 20px;
+}
+
+
+#surdurulebilirlik {
+    background-image: url(../img/webp/solar-panels-wind-turbine-sky-background-1500x750.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+#kariyer {
+    background-image: url(../img/webp/kariyer-1280x470.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#kariyerBanner p {
+    font-size: 24px;
+}
+
+#kariyerBanner h2 {
+    font-size: 38px;
+}
+
+#surdurulebilirlikBanner {
+    background-color: #f8f8f8;
+}
+
+
+#surdurulebilirlikBanner h2 {
+    font-size: 16px;
+}
+
+#surdurulebilirlikBanner h1 {
+    color: #628fb5;
+    font-size: 24px;
+}
+
+#surdurulebilirlikBanner li {
+    color: #393939 !important;
+    list-style: outside;
+}
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.550);
+    border-color: rgba(0, 0, 0, 0.550);
+    color: #fff;
+}
+
+
+#surdurulebilirlikBanner .list-group a:hover {
+    background-color: rgba(0, 0, 0, 0.700);
+    color: #fff;
+}
+
+
+.tab-content .col-md-8 {
+    max-width: 100%;
+}
+
+.list-group-item+.list-group-item.active {
+    margin-top: 0px;
+    border-top-width: 0px;
+}
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.650);
+    border-color: rgba(0, 0, 0, 0.700);
+}
+
+
+#iletisim .card:hover {
+    background-color: #f8f8f8;
+
+}
+
+#iletisim iframe {
+    border: 2px solid #39393956 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.up {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    transform:rotate(320deg);
+    z-index: 99999;
+}
+
+
+.up a{
+    color: #585887 !important ;
+}
+
+.up:hover{
+    transform:rotate(360deg) !important;
+    transition:.4s;
+    padding-bottom: 20px;
+}
